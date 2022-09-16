@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>My Portfolio's - GNTRR.</title>
+
+    <!-- Internal CSS here -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./dist/slick/slick-theme.css"/>
+
+
+    <!-- Favicon here -->
+    <link rel="shortcut icon" href="./dist/img/favicon.ico" />
+
+    <!-- Google Fonts CDN -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ===== Boxicons CSS CDN ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Video.js -->
+    <link href="./styles/video-js.min.css" rel="stylesheet" />
+    <link href="./styles/index.css" rel="stylesheet" />
+
+
+  </head>
+  <body oncontextmenu="return false;">
+    <!-- main body -->
+    <main>
+      <!-- navigation bar here -->
+      <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="/">
+              <strong>GNTRR.</strong></a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="/"><strong>GNTRR.</strong></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="portfolio.html">My Portfolio's</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>    
+            </div>
+        </div>
+      </nav>
+      <!-- main content here -->
+      <div class="portfolio-title">
+        <div class="text">
+          <h2>
+            <span class="ul-title">My Portfolio's</span>
+          </h2>
+          <p>
+            This is my latest projects so far. Start from short movie, social media content, poster, logo, etc.
+          </p>
+        </div>
+      </div>
+      <section id="main">
+        <div class="container">
+          <br>
+          <!-- Short Movie Wrap -->
+          <h2 class="under-line">Short Movie</h2>
+          <div class="row">
+              <div class="column">
+                <div class="wrap-bx">
+                  <div class="responsive-youtube">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/bJGLKNRZNv0"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <h4 style="margin-bottom: 5px;">"Jujurlah" - Project Tugas Akhir SMK TELKOM Darul 'Ulum 2021.</h4>
+                  <p style="margin: 0;">This short film was made for the final assignment of class 12 Vocational High School.</p>
+              </div>
+            </div>
+            <div class="space-portfolio"></div>
+            <br>
+            <!-- my latest content (YT or Instagram) -->
+            <div class="column">
+              <div class="wrap-bx">
+                <div class="responsive-youtube">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/4pK8O_4i50A"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4 style="margin-bottom: 5px;">"Azab di Tanggung Sendiri" by The Mbundeli's Channel.</h4>
+                <p style="margin: 0;">
+                  In this short film, I am just the Cameraman and editor at my friend's channel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          
+          <br />
+          <!-- my latest content (YT or Instagram) -->
+          <h2 class="under-line">Travel / Documenter Video</h2>
+          <div class="row">
+            <div class="column">
+              <div class="wrap-bx">
+                <div class="responsive-youtube">
+                  <iframe src="https://www.youtube.com/embed/OSAPt_Od1oY" frameborder="0" allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h4 style="margin-bottom: 5px;">Time Travel.</h4>
+                <p style="margin: 0;">
+                  Started to collect recorded videos from 2017, i've been on vacation to many place.
+                </p>
+              </div>
+            </div>
+            <div class="space-portfolio"></div>
+            <br>
+              <div class="column">
+                <section id="six">
+                  <div class="wrap-bx">
+                    <div class="plyr-wrap">
+                      <!-- content here -->
+                      <div class="player">
+                        <video
+                          id="forest-video"
+                          class="video-js vjs-theme-forest"
+                          controls
+                          preload="auto"
+                          poster="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/thumb/GoaResi.jpg"
+                          data-setup='{ "fluid": true }'
+                        >
+                        <source src="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/dist/GoaResi.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <h4 style="margin-bottom: 5px;">Family vacation on Gua Resi, Central Java.</h4>
+                      <p style="margin: 0;">
+                        I actually made this video just for explore a shot angle while shoot the video.
+                      </p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <br>
+
+          <section id="workshop-it2">
+            <h2 class="under-line">Bumper Video</h2>
+          </section>
+          <p style="margin-top: 0;">Opening or closing animation that usually in a video program. Used to describe the identity of an event or agency (usually on a videotron screen).</p>
+          <div class="row">
+            <div class="column">
+              <div class="wrap-bx">
+                <div class="plyr-wrap">
+                  <!-- content here -->
+                    <div class="player">
+                      <video
+                        id="forest-video"
+                        class="video-js vjs-theme-forest"
+                        controls
+                        preload="auto"
+                        poster="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/thumb/ComingSoon_WorkshopIT_II.jpg"
+                        data-setup='{ "fluid": true }'
+                      >
+                      <source src="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/dist/ComingSoon_WorkshopIT_II.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  <h4 style="margin-bottom: 5px;">Bumper Coming Soon Workshop IT II 2022 by HIMAKA UMPO.</h4>
+                  <p style="margin: 0;">
+                    This is the coming soon bumper video for that event handled by HIMAKA UMPO.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="space-portfolio"></div>
+            <br>
+              <div class="column">
+                <section id="six">
+                  <div class="wrap-bx">
+                    <div class="plyr-wrap">
+                      <!-- content here -->
+                      <div class="player">
+                        <video
+                          id="forest-video"
+                          class="video-js vjs-theme-forest"
+                          controls
+                          preload="auto"
+                          poster="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/thumb/Bumper_Intro_MF.jpg"
+                          data-setup='{ "fluid": true }'
+                        >
+                        <source src="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/dist/Bumper_Intro_MF.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <h4 style="margin-bottom: 5px;">Intro Opener Video (Mega Film Student Intern Assignment).</h4>
+                      <p style="margin: 0;">
+                        This is the task of the internship program at Mega Film Kediri.
+                      </p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            <br>
+            <div class="row">
+              <div class="column">
+                <section id="six">
+                  <div class="wrap-bx">
+                    <div class="plyr-wrap">
+                      <!-- content here -->
+                      <div class="player">
+                        <video
+                          id="forest-video"
+                          class="video-js vjs-theme-forest"
+                          controls
+                          preload="auto"
+                          poster="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/thumb/Bumper_HurunInn.jpg"
+                          data-setup='{ "fluid": true }'
+                        >
+                        <source src="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/dist/Bumper_HurunInn.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <h4 style="margin-bottom: 5px;">Haflah Akhirsannah - Hurun Inn Dormitory Bumper Video.</h4>
+                      <p style="margin: 0;">
+                        This is another project that i made. Used for Haflah Akhirsannah (Dormitory's Graduation) via online streaming platform.
+                      </p>
+                    </div>
+                  </section>
+                </div>
+                <br>
+                <!-- Filled by space with content -->
+                <div class="space-portfolio"></div>
+                <div class="column">
+                  <section id="six">
+                    <div class="wrap-bx">
+                      <div class="plyr-wrap">
+                        <!-- content here -->
+                        <div class="player">
+                          <video
+                            id="forest-video"
+                            class="video-js vjs-theme-forest"
+                            controls
+                            preload="auto"
+                            poster="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/thumb/Intro_YT.jpg"
+                            data-setup='{ "fluid": true }'
+                          >
+                          <source src="https://raw.githubusercontent.com/gntrr/GNTRR-Repository/main/dist/Intro_YT.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                        <h4 style="margin-bottom: 5px;">YouTube Intro Bumper Video.</h4>
+                        <p style="margin: 0;">
+                          Made by myself with Adobe After Effects CC 2018. This one can be used for YouTube channel opening.
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+            </div>
+              <br>
+              <h2 class="under-line">Logo's Design</h2>
+              <p style="margin-top: 0;">Some Logo's may not be suitable to displayed on dark mode or light mode. You can change to dark/light based on the logo to see the details, or just click on buttons below to go to my dribbble page.</p>
+              <div class="row">
+                <div class="column">
+                  <div class="wrap-bx">
+                    <img src="./dist/img/logo-ardi-hotspot-01.png" alt="Logo Ardi Hotspot" width="auto" height="auto"></a>
+                    <h4 style="margin-bottom: 5px;">Ardi Hotspot.</h4>
+                    <p style="margin: 0;">
+                      Company that focuses on providing internet in Jogoroto, Jombang.
+                    </p>
+                    <br>
+                    <a href="https://dribbble.com/shots/19390022-Wi-Fi-Provider-Logo-Colored-Black-Version" target="_blank"><button class="cta">
+                      <span style="color: var(--text-color);">Check on dribbble</span>
+                      <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                      </svg>
+                    </button></a>
+                  </div>
+                </div>
+                <div class="space-portfolio"></div>
+                <br>
+                  <div class="column">
+                    <section id="six">
+                      <div class="wrap-bx">
+                        <img src="./dist/img/logo-mount-net-01.png" alt="Logo Mount.net" width="auto" height="auto"></a>
+                        <h4 style="margin-bottom: 5px;">Mount.net</h4>
+                        <p style="margin: 0;">
+                          Company that focuses on providing internet in Slahung, Ponorogo.
+                        </p>
+                        <br>
+                        <a href="https://dribbble.com/shots/19393579-MOUNT-NET-Wi-Fi-Provider-Logo" target="_blank"><button class="cta">
+                          <span style="color: var(--text-color);">Check on dribbble</span>
+                          <svg viewBox="0 0 13 10" height="10px" width="15px">
+                            <path d="M1,5 L11,5"></path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                          </svg>
+                        </button></a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+    
+            </div>
+          <br>
+          <p style="text-align: center;">
+            For more design portfolio, you can directly go to my dribbble page <a style="color: var(--text-color);" target="_blank" href="https://dribbble.com/gntrr_">here</a> to see more (Posters, Infographics, etc.)
+          </p>
+          <div class="row">
+            <div class="column">
+              <br>
+              <div class="interest">
+                <div style="width: 10px;"></div>
+                <h2 style="color: var(--text-color); margin: 0;">Wanna doing some project together?</h2>
+                  <br>
+                  <a href="mailto:wima2002@gmail.com" style="text-decoration: none;">
+                    <button class="bn5">
+                     <span style="color: var(--text-color);"><i class="bi bi-briefcase-fill" style="padding-right: 5px;"></i>Hire Me</span>
+                      </button>
+                    </a>
+                  <a href="https://drive.google.com/file/d/10x5VAhcv4woBhuMNZBM2qdnB4Hr3bwCX/view?usp=sharing" target="_blank" style="text-decoration: none;">
+                    <button class="bn5">
+                      <span style="color: var(--text-color);"><i class="bi bi-file-earmark-arrow-down-fill" style="padding-right: 5px;"></i>Download My CV</span>
+                    </button>
+                  </a>
+                  <div style="width: 10px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- footer here -->
+        <footer> 
+          <br />
+          <div class="footer">
+            <p style="margin: 0;">© Made in 2022</p>
+            Developed by 
+            <a href="https://instagram.com/wmlff_" target="_blank">Wima Alif</a>
+          </div>
+          <br />
+        </footer>
+      </section>
+    </main>
+    
+    <!-- JavaScript Here -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.6.0/video.js"></script>
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
